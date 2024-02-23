@@ -1,0 +1,152 @@
+section {
+  width: 64%;
+  margin: 80px auto;
+  height: 400px;
+
+}
+
+.tit {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 20px;
+  font-weight: 999;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  ;
+}
+
+.ad {
+  font-size: 12px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.email {
+  margin-top: 40px;
+}
+
+.in1 {
+  border: none;
+  outline: none;
+  width: 300px;
+  margin-top: 16px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid rgb(224, 211, 211);
+  transition: border-bottom-color 0.3s ease;
+
+}
+
+.in1:focus {
+  border-bottom-color: black;
+}
+
+.myButton {
+  margin-top: 10px;
+  padding: 14px 90px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.myButton:hover {
+  background-color: #0056b3;
+}
+
+.vertical-line {
+  width: 1px;
+  /* Set the width of the vertical line */
+  background-color: rgb(224, 211, 211);
+  /* Set the color of the vertical line */
+  height: 80px;
+  /* Set the height of the vertical line to fill the container */
+  /* Adjust positioning as needed */
+  position: absolute;
+  top: 173px;
+  left: 50%;
+  /* Position the line in the middle of its container */
+  transform: translateX(-50%);
+  /* Center the line horizontally */
+}
+
+.vertical-line2 {
+  width: 1px;
+  /* Set the width of the vertical line */
+  background-color: rgb(224, 211, 211);
+  /* Set the color of the vertical line */
+  height: 80px;
+  /* Set the height of the vertical line to fill the container */
+  /* Adjust positioning as needed */
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  /* Position the line in the middle of its container */
+  transform: translateX(-50%);
+  /* Center the line horizontally */
+}
+
+.vertical-line3 {
+  height: 80px;
+  font-size: 15px;
+  font-weight: 449;
+  color: rgb(134, 128, 128);
+  position: absolute;
+  top: 243px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.vertical-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: relative;
+  left: 500px;
+  bottom: 266px;
+}
+
+.vertical-buttons a {
+  margin-top: 10px;
+  padding: 20px 0;
+  background-color: white;
+  border: 1px solid gray;
+  position: relative;
+  display: flex;
+  align-items: end;
+  text-decoration: none;
+}
+
+.vertical-buttons a i {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  transition: 0.7s ease-in;
+  
+}
+.fc{
+  color: #007bff;
+}
+.ap{
+  color: black;
+}
+.gg{
+  color: rgb(192, 180, 164);
+}
+.vertical-buttons a:hover{
+  background-color:  rgb(227, 222, 222);
+  transform: scale(1);
+}
+
+span{
+  position: relative;
+  left: 90px;
+  color: black;
+  font-size: 15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
